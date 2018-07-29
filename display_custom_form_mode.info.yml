@@ -1,0 +1,5 @@
+type: module
+name: Display Custom Form Mode
+description: 'Includes Custom Form Mode implementation.'
+package: Custom
+core: '8.x'

@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\StringTranslation\TranslatableMarkup;
+use Drupal\Core\Field\FieldConfigInterface;
+
+/**
+ * Implements hook_entity_type_build().
+ */
+function display_custom_form_mode_entity_type_build(array &$entity_types) {
+  $entity_types['node']->setFormClass('company_form_mode', 'Drupal\node\NodeForm');
+}
